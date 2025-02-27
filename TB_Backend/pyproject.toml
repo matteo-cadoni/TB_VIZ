@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "tub-backend"
+version = "0.1.0"
+description = ""
+authors = ["matteo <ge32sag@tume.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.7"
+uvicorn = "^0.34.0"
+numpy = "1.26.4"
+aicsimageio = "^4.14.0"
+aicspylibczi = ">=3.1.1"
+fsspec = ">=2022.8.0"
+opencv-python = "^4.11.0.86"
+matplotlib = "^3.10.0"
+torch = "^2.5.1"
+h5py = "^3.12.1"
+python-multipart = "^0.0.20"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
