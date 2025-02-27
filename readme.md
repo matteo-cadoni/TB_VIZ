@@ -28,7 +28,7 @@ This can assist pathologists in quickly identifying regions of interest that are
 
 ### Installation
 1. Clone the repository.
-2. Inside TV_VIZ run:
+2. Inside TB_VIZ run:
     ```
    git clone https://github.com/hms-dbmi/vizarr.git TB_Frontend
    ```
