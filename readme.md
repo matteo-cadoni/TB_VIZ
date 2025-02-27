@@ -12,7 +12,7 @@ This can assist pathologists in quickly identifying regions of interest that are
 - **Heatmap Visualization**: A heatmap is generated to show the density and distribution of the bacilli on the slide.
 - **Image and Heatmap View**: Both the original image and the corresponding heatmap are visualized for easy comparison.
 
-## Use Case
+## Example Use Case
 ![Use Case](images/zoom-heat-og.gif)
 
 
@@ -28,7 +28,19 @@ This can assist pathologists in quickly identifying regions of interest that are
 
 ### Installation
 1. Clone the repository.
-2. Inside TB_Frontend run:
+2. Inside TV_VIZ run:
+    ```
+   git clone https://github.com/hms-dbmi/vizarr.git TB_Frontend
+   ```
+   ```
+   cd TB_Frontend
+   ```
+   ```
+    git checkout d70b0c9ab86acfcd79fd4bbb61f076bd122cb3cc
+    ```
+3. Replace `main.ts` from Frontend into TB_Frontend, add `.env`from Frontend to TB_Frontend
+   
+4. Inside TB_Frontend run:
     ```
     npm install --legacy-peer-deps  // if needed: sudo npm install --legacy-peer-deps
     ```
@@ -38,7 +50,7 @@ This can assist pathologists in quickly identifying regions of interest that are
    ```
     npm run build
    ```
-3. Inside TB_Backend run:
+5. Inside TB_Backend run:
     ```
     poetry install
     ```
@@ -60,7 +72,6 @@ This can assist pathologists in quickly identifying regions of interest that are
 4. Follow the instructions on the web page to upload a whole slide image (.CZI)
 
 ## Acknowledgements
-The Backend of this project is mostly based on the following repository: []
+The Backend of this project is mostly based on the following repository: [TBProject](https://github.com/matteo-cadoni/TBProject).
 
-The Frontend is mostly based on the following repository: 
-    
+The Frontend is mostly based on the following repository: VIZARR [VIZARR](https://github.com/hms-dbmi/vizarr)
